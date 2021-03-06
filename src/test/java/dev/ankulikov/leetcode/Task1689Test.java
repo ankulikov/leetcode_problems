@@ -19,7 +19,7 @@ class Task1689Test {
         var actual = task.minPartitions(input);
 
         // then
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     public static Stream<Arguments> data() {

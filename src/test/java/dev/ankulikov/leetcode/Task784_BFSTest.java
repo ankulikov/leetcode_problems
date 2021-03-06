@@ -21,7 +21,7 @@ class Task784_BFSTest {
         var actual = task.letterCasePermutation(input);
 
         // then
-        assertEquals(Set.copyOf(actual), Set.copyOf(expected));
+        assertEquals(Set.copyOf(expected), Set.copyOf(actual));
     }
 
     public static Stream<Arguments> data() {

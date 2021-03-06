@@ -20,7 +20,7 @@ class Task22Test {
         var actual = task.generateParenthesis(pairsCount);
 
         // then
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     public static Stream<Arguments> data() {
