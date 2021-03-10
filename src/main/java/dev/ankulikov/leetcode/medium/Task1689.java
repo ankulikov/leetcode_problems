@@ -1,4 +1,4 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
 /**
  * A decimal number is called deci-binary if each of its digits is either 0 or 1 without any leading zeros.

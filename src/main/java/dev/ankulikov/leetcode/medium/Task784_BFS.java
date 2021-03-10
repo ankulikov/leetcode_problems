@@ -1,4 +1,4 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
 import java.util.LinkedList;
 import java.util.List;

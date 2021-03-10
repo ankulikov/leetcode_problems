@@ -1,4 +1,4 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
 /**
  * Given an array nums with n integers, your task is to check if it could become non-decreasing by

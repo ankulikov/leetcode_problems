@@ -1,4 +1,4 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.easy;
 
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Integer.MIN_VALUE;

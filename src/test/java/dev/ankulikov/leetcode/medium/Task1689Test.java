@@ -1,5 +1,6 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
+import dev.ankulikov.leetcode.medium.Task1689;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -8,15 +9,15 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Task1770Test {
+class Task1689Test {
 
-    private final Task1770 task = new Task1770();
+    private final Task1689 task = new Task1689();
 
     @ParameterizedTest
     @MethodSource("data")
-    public void should_provide_correct_output(int[] nums, int[] multipliers, int expected) {
+    public void should_provide_correct_output(String input, int expected) {
         // when
-        var actual = task.maximumScore(nums, multipliers);
+        var actual = task.minPartitions(input);
 
         // then
         assertEquals(expected, actual);
@@ -24,8 +25,9 @@ class Task1770Test {
 
     public static Stream<Arguments> data() {
         return Stream.of(
-            Arguments.of(new int[]{1, 2, 3}, new int[]{3, 2, 1}, 14),
-            Arguments.of(new int[]{-5, -3, -3, -2, 7, 1}, new int[]{-10, -5, 3, 4, 6}, 102)
+            Arguments.of("32", 3),
+            Arguments.of("82734", 8),
+            Arguments.of("27346209830709182346", 9)
         );
     }
 }

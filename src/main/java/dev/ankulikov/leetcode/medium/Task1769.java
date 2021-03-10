@@ -1,4 +1,4 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
 /**
  * You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty,

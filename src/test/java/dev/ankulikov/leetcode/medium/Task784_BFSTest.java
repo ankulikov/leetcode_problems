@@ -1,5 +1,6 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
+import dev.ankulikov.leetcode.medium.Task784_BFS;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -8,11 +9,11 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-class Task784Test {
+class Task784_BFSTest {
 
-    private final Task784 task = new Task784();
+    private final Task784_BFS task = new Task784_BFS();
 
     @ParameterizedTest
     @MethodSource("data")

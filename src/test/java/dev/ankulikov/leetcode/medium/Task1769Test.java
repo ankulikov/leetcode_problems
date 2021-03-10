@@ -1,5 +1,6 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.medium;
 
+import dev.ankulikov.leetcode.medium.Task1769;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;

@@ -1,5 +1,6 @@
-package dev.ankulikov.leetcode;
+package dev.ankulikov.leetcode.easy;
 
+import dev.ankulikov.leetcode.easy.Task121;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
